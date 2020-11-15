@@ -68,11 +68,11 @@ class _DicePageState extends State<DicePage> {
             children: [
                 Image.asset('assets/dice$leftDiceNumber.png', width: 150.0,),
                 SizedBox(
-                  height: 40,
+                  height: 200,
                 ),
                 Image.asset("assets/dice$rightDiceNumber.png", width: 150.0,),
                 SizedBox(
-                  height: 40,
+                  height: 200,
                 ),
         ],
       ),
