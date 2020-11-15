@@ -64,7 +64,7 @@ class _DicePageState extends State<DicePage> {
           ),
       ),
       Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
                 Image.asset('assets/dice$leftDiceNumber.png', width: 150.0,),
                 SizedBox(
