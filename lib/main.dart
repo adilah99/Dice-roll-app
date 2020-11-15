@@ -7,7 +7,7 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.orange[100],
         appBar: AppBar(
-          title: Text('Dicee Game!', style:TextStyle(fontFamily:'Montserrat'),),
+          title: Text('Dicee Game!', style:TextStyle(fontFamily:'OpenSans'),),
           backgroundColor: Colors.red[900],
         ),
          body:
@@ -60,7 +60,7 @@ class _DicePageState extends State<DicePage> {
         Padding(
         padding: const EdgeInsets.only(top: 30),
         child: Text('The sum is: '+ (leftDiceNumber + rightDiceNumber ).toString(),
-          style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,fontFamily: 'Open Sans'),
+          style: TextStyle(fontWeight: FontWeight.bold,fontSize: 30,fontFamily: 'OpenSans'),
           ),
       ),
       Row(
@@ -80,7 +80,7 @@ class _DicePageState extends State<DicePage> {
                   width: MediaQuery.of(context).size.width*0.5,
                   child: FlatButton(
                       color: Colors.orange,
-                      onPressed: ()=> rollDice(), child: Text('Roll Dice', style: TextStyle(fontFamily: 'Montserrat',fontSize: 20),)),
+                      onPressed: ()=> rollDice(), child: Text('Roll Dice', style: TextStyle(fontFamily: 'OpenSans',fontSize: 20),)),
                 ),
                 SizedBox(
                   height: 30,
